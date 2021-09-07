@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _24Hrs.Data
 {
-    class Reply
+    public class Reply
     {
     }
 }
