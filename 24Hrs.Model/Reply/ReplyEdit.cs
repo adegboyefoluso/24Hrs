@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace _24Hrs.Model.Reply
 {
-    public class ReplyDetail
+    public class ReplyEdit
     {
-        public int ReplyId { get; set; }
+        public int Id { get; set; }
+        public int CommentId { get; set; }
+    
         public string Text { get; set; }
-        
-        public DateTimeOffset CreatedUTc { get; set; }
+   
+       
         public DateTimeOffset ModifiedUTc { get; set; }
     }
 }
