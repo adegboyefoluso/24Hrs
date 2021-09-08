@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24Hrs.Data
+namespace _24Hrs.Model.Reply
 {
-    public class Comment
+    class EditReply
     {
     }
 }
