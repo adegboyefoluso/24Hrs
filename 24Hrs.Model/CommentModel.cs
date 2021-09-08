@@ -5,11 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24Hrs.Data
+namespace _24Hrs.Model
 {
-    public class Comment
+    public class CommentModel
     {
 
+<<<<<<< HEAD:24Hrs.Model/CommentModel.cs
+=======
         public int Id { get; set; }
         public string Text { get; set; }
         public Guid AuthorId { get; set; }
@@ -20,5 +22,6 @@ namespace _24Hrs.Data
 
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset? ModifiedUtc { get; set; }
+>>>>>>> develop:24Hrs.Data/Comment.cs
     }
 }

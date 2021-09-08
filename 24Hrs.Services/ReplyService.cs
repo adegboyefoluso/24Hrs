@@ -39,7 +39,7 @@ namespace _24Hrs.Services
                 }
                 return false;
             }
-        }
+        }   
 
        public ReplyCommentDetail GetReplyByCommentId(int id)
        {
