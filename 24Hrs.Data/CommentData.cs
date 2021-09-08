@@ -7,24 +7,19 @@ using System.Threading.Tasks;
 
 namespace _24Hrs.Data
 {
-    public class Post
+    public class CommentData
     {
         [Key]
-        public int PostId { get; set; }
-
+        public int Id { get; set; }
         [Required]
         public Guid AuthorId { get; set; }
-
-        [Required]
-        public string Title { get; set; }
-
         [Required]
         public string Text { get; set; }
-
-        public virtual List<Comment> Comments { get; set; } = new List<Comment>();
-        public virtual List<Like> Likes { get; set; } = new List<Like>();
-
+        [Required]
         public DateTimeOffset CreatedUtc { get; set; }
-        public DateTimeOffset? ModifiedUtc { get; set; }
+        [Required]
+        public DateTimeOffset ModifiedUtc { get; set; }
+        [Required]
+        public virtual Post Post { get; set; }
     }
 }

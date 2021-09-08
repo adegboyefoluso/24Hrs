@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24Hrs.Data
+namespace _24Hrs.Model
 {
-    public class Comment
+    public class PostCreate
     {
+        public string Title { get; set; }
+        public string Text { get; set; }
     }
 }
