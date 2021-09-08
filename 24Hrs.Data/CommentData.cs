@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace _24Hrs.Data
 {
-    public class Comment
+    public class CommentData
     {
         [Key]
         public int Id { get; set; }
         [Required]
         public Guid AuthorId { get; set; }
         [Required]
-        public string text { get; set; }
+        public string Text { get; set; }
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
         [Required]
